@@ -1,0 +1,350 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DataLayer.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:DataLayer.Fakes.ShimEF_DBEntities">
+            <summary>Shim type of DataLayer.EF_DBEntities</summary>
+        </member>
+        <member name="M:DataLayer.Fakes.ShimEF_DBEntities.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:DataLayer.Fakes.ShimEF_DBEntities.#ctor(DataLayer.EF_DBEntities)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:DataLayer.Fakes.ShimEF_DBEntities.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:DataLayer.Fakes.ShimEF_DBEntities.AllInstances.OnModelCreatingDbModelBuilder">
+            <summary>Sets the Shim of EF_DBEntities.OnModelCreating(DbModelBuilder modelBuilder)</summary>
+        </member>
+        <member name="P:DataLayer.Fakes.ShimEF_DBEntities.AllInstances.studentGet">
+            <summary>Sets the Shim of EF_DBEntities.get_student()</summary>
+        </member>
+        <member name="P:DataLayer.Fakes.ShimEF_DBEntities.AllInstances.studentSetDbSetOfstudent">
+            <summary>Sets the Shim of EF_DBEntities.set_student(DbSet`1&lt;student&gt; value)</summary>
+        </member>
+        <member name="M:DataLayer.Fakes.ShimEF_DBEntities.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DataLayer.Fakes.ShimEF_DBEntities.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:DataLayer.Fakes.ShimEF_DBEntities.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DataLayer.Fakes.ShimEF_DBEntities.Bind(System.Data.Entity.Infrastructure.IObjectContextAdapter)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:DataLayer.Fakes.ShimEF_DBEntities.Bind(System.IDisposable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:DataLayer.Fakes.ShimEF_DBEntities.Constructor">
+            <summary>Sets the Shim of EF_DBEntities.EF_DBEntities()</summary>
+        </member>
+        <member name="P:DataLayer.Fakes.ShimEF_DBEntities.OnModelCreatingDbModelBuilder">
+            <summary>Sets the Shim of EF_DBEntities.OnModelCreating(DbModelBuilder modelBuilder)</summary>
+        </member>
+        <member name="P:DataLayer.Fakes.ShimEF_DBEntities.studentGet">
+            <summary>Sets the Shim of EF_DBEntities.get_student()</summary>
+        </member>
+        <member name="P:DataLayer.Fakes.ShimEF_DBEntities.studentSetDbSetOfstudent">
+            <summary>Sets the Shim of EF_DBEntities.set_student(DbSet`1&lt;student&gt; value)</summary>
+        </member>
+        <member name="T:DataLayer.Fakes.Shimstudent">
+            <summary>Shim type of DataLayer.student</summary>
+        </member>
+        <member name="M:DataLayer.Fakes.Shimstudent.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:DataLayer.Fakes.Shimstudent.#ctor(DataLayer.student)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:DataLayer.Fakes.Shimstudent.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:DataLayer.Fakes.Shimstudent.AllInstances.EmailGet">
+            <summary>Sets the Shim of student.get_Email()</summary>
+        </member>
+        <member name="P:DataLayer.Fakes.Shimstudent.AllInstances.EmailSetString">
+            <summary>Sets the Shim of student.set_Email(String value)</summary>
+        </member>
+        <member name="P:DataLayer.Fakes.Shimstudent.AllInstances.StudentIdGet">
+            <summary>Sets the Shim of student.get_StudentId()</summary>
+        </member>
+        <member name="P:DataLayer.Fakes.Shimstudent.AllInstances.StudentIdSetInt32">
+            <summary>Sets the Shim of student.set_StudentId(Int32 value)</summary>
+        </member>
+        <member name="P:DataLayer.Fakes.Shimstudent.AllInstances.departmantGet">
+            <summary>Sets the Shim of student.get_departmant()</summary>
+        </member>
+        <member name="P:DataLayer.Fakes.Shimstudent.AllInstances.departmantSetString">
+            <summary>Sets the Shim of student.set_departmant(String value)</summary>
+        </member>
+        <member name="P:DataLayer.Fakes.Shimstudent.AllInstances.firstNameGet">
+            <summary>Sets the Shim of student.get_firstName()</summary>
+        </member>
+        <member name="P:DataLayer.Fakes.Shimstudent.AllInstances.firstNameSetString">
+            <summary>Sets the Shim of student.set_firstName(String value)</summary>
+        </member>
+        <member name="P:DataLayer.Fakes.Shimstudent.AllInstances.lastNameGet">
+            <summary>Sets the Shim of student.get_lastName()</summary>
+        </member>
+        <member name="P:DataLayer.Fakes.Shimstudent.AllInstances.lastNameSetString">
+            <summary>Sets the Shim of student.set_lastName(String value)</summary>
+        </member>
+        <member name="M:DataLayer.Fakes.Shimstudent.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DataLayer.Fakes.Shimstudent.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:DataLayer.Fakes.Shimstudent.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:DataLayer.Fakes.Shimstudent.Constructor">
+            <summary>Sets the Shim of student.student()</summary>
+        </member>
+        <member name="P:DataLayer.Fakes.Shimstudent.EmailGet">
+            <summary>Sets the Shim of student.get_Email()</summary>
+        </member>
+        <member name="P:DataLayer.Fakes.Shimstudent.EmailSetString">
+            <summary>Sets the Shim of student.set_Email(String value)</summary>
+        </member>
+        <member name="P:DataLayer.Fakes.Shimstudent.StudentIdGet">
+            <summary>Sets the Shim of student.get_StudentId()</summary>
+        </member>
+        <member name="P:DataLayer.Fakes.Shimstudent.StudentIdSetInt32">
+            <summary>Sets the Shim of student.set_StudentId(Int32 value)</summary>
+        </member>
+        <member name="P:DataLayer.Fakes.Shimstudent.departmantGet">
+            <summary>Sets the Shim of student.get_departmant()</summary>
+        </member>
+        <member name="P:DataLayer.Fakes.Shimstudent.departmantSetString">
+            <summary>Sets the Shim of student.set_departmant(String value)</summary>
+        </member>
+        <member name="P:DataLayer.Fakes.Shimstudent.firstNameGet">
+            <summary>Sets the Shim of student.get_firstName()</summary>
+        </member>
+        <member name="P:DataLayer.Fakes.Shimstudent.firstNameSetString">
+            <summary>Sets the Shim of student.set_firstName(String value)</summary>
+        </member>
+        <member name="P:DataLayer.Fakes.Shimstudent.lastNameGet">
+            <summary>Sets the Shim of student.get_lastName()</summary>
+        </member>
+        <member name="P:DataLayer.Fakes.Shimstudent.lastNameSetString">
+            <summary>Sets the Shim of student.set_lastName(String value)</summary>
+        </member>
+        <member name="T:DataLayer.Fakes.StubEF_DBEntities">
+            <summary>Stub type of DataLayer.EF_DBEntities</summary>
+        </member>
+        <member name="M:DataLayer.Fakes.StubEF_DBEntities.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:DataLayer.Fakes.StubEF_DBEntities.AttachBackingFieldTostudent">
+            <summary>Attaches delegates to emulate StubEF_DBEntities.student as a property with a backing field.</summary>
+        </member>
+        <member name="P:DataLayer.Fakes.StubEF_DBEntities.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:DataLayer.Fakes.StubEF_DBEntities.Dispose(System.Boolean)">
+            <summary>Sets the Stub of DbContext.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="F:DataLayer.Fakes.StubEF_DBEntities.DisposeBoolean">
+            <summary>Sets the stub of DbContext.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="M:DataLayer.Fakes.StubEF_DBEntities.Equals(System.Object)">
+            <summary>Sets the Stub of DbContext.Equals(Object obj)</summary>
+        </member>
+        <member name="F:DataLayer.Fakes.StubEF_DBEntities.EqualsObject">
+            <summary>Sets the stub of DbContext.Equals(Object obj)</summary>
+        </member>
+        <member name="M:DataLayer.Fakes.StubEF_DBEntities.GetHashCode">
+            <summary>Sets the Stub of DbContext.GetHashCode()</summary>
+        </member>
+        <member name="F:DataLayer.Fakes.StubEF_DBEntities.GetHashCode01">
+            <summary>Sets the stub of DbContext.GetHashCode()</summary>
+        </member>
+        <member name="M:DataLayer.Fakes.StubEF_DBEntities.InitializeStub">
+            <summary>Initializes a new instance of type StubEF_DBEntities</summary>
+        </member>
+        <member name="P:DataLayer.Fakes.StubEF_DBEntities.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:DataLayer.Fakes.StubEF_DBEntities.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="M:DataLayer.Fakes.StubEF_DBEntities.OnModelCreating(System.Data.Entity.DbModelBuilder)">
+            <summary>Sets the Stub of EF_DBEntities.OnModelCreating(DbModelBuilder modelBuilder)</summary>
+        </member>
+        <member name="F:DataLayer.Fakes.StubEF_DBEntities.OnModelCreatingDbModelBuilder">
+            <summary>Sets the stub of EF_DBEntities.OnModelCreating(DbModelBuilder modelBuilder)</summary>
+        </member>
+        <member name="M:DataLayer.Fakes.StubEF_DBEntities.SaveChanges">
+            <summary>Sets the Stub of DbContext.SaveChanges()</summary>
+        </member>
+        <member name="F:DataLayer.Fakes.StubEF_DBEntities.SaveChanges01">
+            <summary>Sets the stub of DbContext.SaveChanges()</summary>
+        </member>
+        <member name="M:DataLayer.Fakes.StubEF_DBEntities.SaveChangesAsync">
+            <summary>Sets the Stub of DbContext.SaveChangesAsync()</summary>
+        </member>
+        <member name="M:DataLayer.Fakes.StubEF_DBEntities.SaveChangesAsync(System.Threading.CancellationToken)">
+            <summary>Sets the Stub of DbContext.SaveChangesAsync(CancellationToken cancellationToken)</summary>
+        </member>
+        <member name="F:DataLayer.Fakes.StubEF_DBEntities.SaveChangesAsync01">
+            <summary>Sets the stub of DbContext.SaveChangesAsync()</summary>
+        </member>
+        <member name="F:DataLayer.Fakes.StubEF_DBEntities.SaveChangesAsyncCancellationToken">
+            <summary>Sets the stub of DbContext.SaveChangesAsync(CancellationToken cancellationToken)</summary>
+        </member>
+        <member name="M:DataLayer.Fakes.StubEF_DBEntities.Set(System.Type)">
+            <summary>Sets the Stub of DbContext.Set(Type entityType)</summary>
+        </member>
+        <member name="M:DataLayer.Fakes.StubEF_DBEntities.Set``1">
+            <summary>Sets the Stub of DbContext.Set()</summary>
+        </member>
+        <member name="M:DataLayer.Fakes.StubEF_DBEntities.SetOf1``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Data.Entity.DbSet{``0}})">
+            <summary>Sets stubs of Set()</summary>
+        </member>
+        <member name="F:DataLayer.Fakes.StubEF_DBEntities.SetType">
+            <summary>Sets the stub of DbContext.Set(Type entityType)</summary>
+        </member>
+        <member name="M:DataLayer.Fakes.StubEF_DBEntities.ShouldValidateEntity(System.Data.Entity.Infrastructure.DbEntityEntry)">
+            <summary>Sets the Stub of DbContext.ShouldValidateEntity(DbEntityEntry entityEntry)</summary>
+        </member>
+        <member name="F:DataLayer.Fakes.StubEF_DBEntities.ShouldValidateEntityDbEntityEntry">
+            <summary>Sets the stub of DbContext.ShouldValidateEntity(DbEntityEntry entityEntry)</summary>
+        </member>
+        <member name="F:DataLayer.Fakes.StubEF_DBEntities.StudentGet">
+            <summary>Sets the stub of EF_DBEntities.get_student()</summary>
+        </member>
+        <member name="F:DataLayer.Fakes.StubEF_DBEntities.StudentSetDbSetOfstudent">
+            <summary>Sets the stub of EF_DBEntities.set_student(DbSet`1&lt;student&gt; value)</summary>
+        </member>
+        <member name="M:DataLayer.Fakes.StubEF_DBEntities.ToString">
+            <summary>Sets the Stub of DbContext.ToString()</summary>
+        </member>
+        <member name="F:DataLayer.Fakes.StubEF_DBEntities.ToString01">
+            <summary>Sets the stub of DbContext.ToString()</summary>
+        </member>
+        <member name="M:DataLayer.Fakes.StubEF_DBEntities.ValidateEntity(System.Data.Entity.Infrastructure.DbEntityEntry,System.Collections.Generic.IDictionary{System.Object,System.Object})">
+            <summary>Sets the Stub of DbContext.ValidateEntity(DbEntityEntry entityEntry, IDictionary`2&lt;Object,Object&gt; items)</summary>
+        </member>
+        <member name="F:DataLayer.Fakes.StubEF_DBEntities.ValidateEntityDbEntityEntryIDictionaryOfObjectObject">
+            <summary>Sets the stub of DbContext.ValidateEntity(DbEntityEntry entityEntry, IDictionary`2&lt;Object,Object&gt; items)</summary>
+        </member>
+        <member name="P:DataLayer.Fakes.StubEF_DBEntities.student">
+            <summary>Sets the stub of EF_DBEntities.get_student()</summary>
+        </member>
+        <member name="T:DataLayer.Fakes.Stubstudent">
+            <summary>Stub type of DataLayer.student</summary>
+        </member>
+        <member name="M:DataLayer.Fakes.Stubstudent.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:DataLayer.Fakes.Stubstudent.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:DataLayer.Fakes.Stubstudent.InitializeStub">
+            <summary>Initializes a new instance of type Stubstudent</summary>
+        </member>
+        <member name="P:DataLayer.Fakes.Stubstudent.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:DataLayer.Fakes.Stubstudent.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:DataLayer.Models.Fakes.ShimPerson">
+            <summary>Shim type of DataLayer.Models.Person</summary>
+        </member>
+        <member name="M:DataLayer.Models.Fakes.ShimPerson.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:DataLayer.Models.Fakes.ShimPerson.#ctor(DataLayer.Models.Person)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:DataLayer.Models.Fakes.ShimPerson.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.ShimPerson.AllInstances.FamilyGet">
+            <summary>Sets the Shim of Person.get_Family()</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.ShimPerson.AllInstances.FamilySetString">
+            <summary>Sets the Shim of Person.set_Family(String value)</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.ShimPerson.AllInstances.NameGet">
+            <summary>Sets the Shim of Person.get_Name()</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.ShimPerson.AllInstances.NameSetString">
+            <summary>Sets the Shim of Person.set_Name(String value)</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.ShimPerson.AllInstances.PersonIDGet">
+            <summary>Sets the Shim of Person.get_PersonID()</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.ShimPerson.AllInstances.PersonIDSetInt32">
+            <summary>Sets the Shim of Person.set_PersonID(Int32 value)</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.ShimPerson.AllInstances.WebSiteGet">
+            <summary>Sets the Shim of Person.get_WebSite()</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.ShimPerson.AllInstances.WebSiteSetString">
+            <summary>Sets the Shim of Person.set_WebSite(String value)</summary>
+        </member>
+        <member name="M:DataLayer.Models.Fakes.ShimPerson.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DataLayer.Models.Fakes.ShimPerson.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.ShimPerson.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.ShimPerson.Constructor">
+            <summary>Sets the Shim of Person.Person()</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.ShimPerson.FamilyGet">
+            <summary>Sets the Shim of Person.get_Family()</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.ShimPerson.FamilySetString">
+            <summary>Sets the Shim of Person.set_Family(String value)</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.ShimPerson.NameGet">
+            <summary>Sets the Shim of Person.get_Name()</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.ShimPerson.NameSetString">
+            <summary>Sets the Shim of Person.set_Name(String value)</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.ShimPerson.PersonIDGet">
+            <summary>Sets the Shim of Person.get_PersonID()</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.ShimPerson.PersonIDSetInt32">
+            <summary>Sets the Shim of Person.set_PersonID(Int32 value)</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.ShimPerson.WebSiteGet">
+            <summary>Sets the Shim of Person.get_WebSite()</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.ShimPerson.WebSiteSetString">
+            <summary>Sets the Shim of Person.set_WebSite(String value)</summary>
+        </member>
+        <member name="T:DataLayer.Models.Fakes.StubPerson">
+            <summary>Stub type of DataLayer.Models.Person</summary>
+        </member>
+        <member name="M:DataLayer.Models.Fakes.StubPerson.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.StubPerson.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:DataLayer.Models.Fakes.StubPerson.InitializeStub">
+            <summary>Initializes a new instance of type StubPerson</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.StubPerson.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.StubPerson.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+    </members>
+</doc>
